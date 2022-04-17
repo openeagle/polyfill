@@ -23,7 +23,8 @@
     "clean": "run-s clean:*",
     "clean:lib": "rimraf ./lib",
     "clean:dist": "rimraf ./dist",
-    "release": "run-s build semantic-release"
+    "release": "run-s clean build release:*",
+    "release:semantic": "semantic-release"
   },
   "lint-staged": {
     "*.{vue,ts,tsx,js,jsx}": "eslint --fix",
