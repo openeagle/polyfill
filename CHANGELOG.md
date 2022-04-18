@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/openeagle/polyfill/compare/v1.0.0...v1.0.1) (2022-04-18)
+
+
+### Bug Fixes
+
+* 修正兼容的浏览器 ([befcf4e](https://github.com/openeagle/polyfill/commit/befcf4e0c993b059dd8a70402fb3536f012059e1))
+
 # 1.0.0 (2022-04-17)
 
 
