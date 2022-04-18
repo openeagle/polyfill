@@ -1,6 +1,6 @@
 const targets = {
-  vue3: 'ios_saf >= 10, chrome >= 50',
-  'vue3-esmodule': 'ios_saf >= 11, chrome >= 61',
+  vue3: 'ios_saf >= 10, chrome >= 49',
+  'vue3-esmodule': 'ios_saf >= 11.3, chrome >= 63',
 }
 
 function createConfig(target) {

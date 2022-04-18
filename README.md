@@ -4,11 +4,15 @@
 
 - vue3：支持 Proxy 的移动端浏览器
 
-    iOS >= 10，Chrome >= 50
+    iOS >= 10，Chrome >= 49
 
-- vue3-modules：支持 Script Module 的移动端浏览器
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy#browser_compatibility
 
-    iOS >= 11，Chrome >= 61
+- vue3-modules：支持 Script Module 和 Dynamic Import 的移动端浏览器
+
+    iOS >= 11.3，Chrome >= 63
+
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#browser_compatibility
 
 ## 安装使用
 
